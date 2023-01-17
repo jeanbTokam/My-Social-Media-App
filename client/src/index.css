@@ -14,13 +14,13 @@ code {
     monospace;
 }
 .bs1{
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
+  box-shadow: rgba(60, 147, 213, 0.3) 0px 1px 2px 0px, rgba(75, 122, 158, 0.15) 0px 1px 3px 1px !important;
 }
 .register-div{
   padding-top: 200px !important;
 }
 input , button , textarea{
-  border: 1px solid black !important;
+  border: 1px solid rgb(84, 69, 69) !important;
 }
 input[type='file']{
   border : none !important;

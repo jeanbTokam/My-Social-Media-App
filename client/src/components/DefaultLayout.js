@@ -53,7 +53,7 @@ class DefaultLayout extends React.Component {
             <UserOutlined />
             <h4 className='pt-3'>{JSON.parse(localStorage.getItem('user')).username}</h4>
             </div>
-            <h2 className='logotext pt-1'><b>Tokam</b></h2>
+            <h2 className='logotext pt-1'><b>Social Media</b></h2>
             {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
               className: 'trigger',
               onClick: this.toggle,
@@ -97,15 +97,7 @@ class DefaultLayout extends React.Component {
               <Link to='/allusers'>AllUsers</Link>
             </Menu.Item>
 
-            <Menu.Item  icon={<SaveOutlined />}>
-              <Link>Saved</Link>
-            </Menu.Item>
-
-            <Menu.Item  icon={<DownSquareOutlined />}>
-              <Link >Archived</Link>
-            </Menu.Item>
           
-
             <Menu.Item  icon={<LogoutOutlined />}>
               <Link onClick={()=>{localStorage.removeItem(('user') , window.location.reload());}}>Logout</Link>
             </Menu.Item>
