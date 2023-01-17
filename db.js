@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect('mongodb+srv://tokam:tokam123@jb.gpgoi.mongodb.net/Social-media-app?retryWrites=true&w=majority' , {useUnifiedTopology: true , useNewUrlParser: true});
+mongoose.connect('mongodb+srv://tokam:@jb.gpgoi.mongodb.net/Social-media-app?retryWrites=true&w=majority' , {useUnifiedTopology: true , useNewUrlParser: true});
 
 const connection = mongoose.connection
 
