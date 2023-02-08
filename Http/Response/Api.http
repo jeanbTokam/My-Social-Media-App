@@ -1,0 +1,12 @@
+
+@host=http://localhost:5000
+
+### getallpost
+get {{host}}/api/posts/getallposts
+
+###deletepost
+post {{host}}/api/posts/deletepost/
+
+###getpostbyid
+post {{host}}/api/posts/editpost/
+

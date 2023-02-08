@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "client",
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: build - client",
+			"detail": "react-scripts build"
+		},
+		{
+			"type": "npm",
+			"script": "client-install",
+			"problemMatcher": [],
+			"label": "npm: client-install",
+			"detail": "npm install --prefix client",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
